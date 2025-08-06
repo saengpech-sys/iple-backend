@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"iple-backend/internal/models" // **สำคัญ:** แก้ Path
-	"strings"                      // สำหรับ Search และ Email Lowercase
+	"github.com/saengepch-sys/iple-backend/internal/models"
+	"strings" // สำหรับ Search และ Email Lowercase
 
 	"gorm.io/gorm"
 )

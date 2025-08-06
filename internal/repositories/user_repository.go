@@ -2,7 +2,7 @@ package repositories
 
 import (
 	"context"
-	"iple-backend/internal/models" // **สำคัญ:** แก้ your_module_path เป็น Path จริงของโปรเจกต์คุณ
+	"github.com/saengepch-sys/iple-backend/internal/models"
 )
 
 // UserListOptions กำหนดตัวเลือกสำหรับการดึงรายการผู้ใช้ (Pagination, Filters)
