@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"iple-backend/internal/config"
-	"iple-backend/internal/models"
+	"github.com/saengepch-sys/iple-backend/internal/config"
+	"github.com/saengepch-sys/iple-backend/internal/models"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
